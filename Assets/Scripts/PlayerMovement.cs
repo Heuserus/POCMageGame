@@ -30,11 +30,7 @@ public class PlayerMovement : MonoBehaviour
         float y = Input.GetAxisRaw("Vertical");
         animator.SetFloat("Horizontal",x);
 
-        if (Input.GetButtonDown("Fire1"))
-        {
-            Debug.Log("Fireball");
-            GameObject fire =  Instantiate(fireBall, transform.position + Vector3.Scale(distance, Vector3.Normalize(crosshair.GetComponent("Transform").transform.position - transform.position)) , Quaternion.identity);
-        }
+        
 
         // Reset MoveDelta
         moveDelta = new Vector3(x, y, 0);
