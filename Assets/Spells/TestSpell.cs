@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu]
+[CreateAssetMenu(menuName = "Spells/TestSpell")]
 public class TestSpell : Spell
 {
-    public string test;
-    public override void Cast()
+    
+    public override void Cast(GameObject player, GameObject crosshair)
     {
         Debug.Log("TestSpell");
     }

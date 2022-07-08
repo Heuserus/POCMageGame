@@ -258,7 +258,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b24afa8c6573f9f47980e114263cb034, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spell: {fileID: 11400000, guid: 35e293466ba4e334fa46c4636349fecd, type: 2}
+  spell1: {fileID: 11400000, guid: 35fdbc0c17a519c4884917db72f71947, type: 2}
+  spell2: {fileID: 11400000, guid: 35e293466ba4e334fa46c4636349fecd, type: 2}
+  key: 324
+  crossHair: {fileID: 1421794806}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -312,7 +315,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 3
+  orthographic size: 4
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
