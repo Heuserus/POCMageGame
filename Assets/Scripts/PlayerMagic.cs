@@ -10,18 +10,21 @@ public class PlayerMagic : MonoBehaviour
     public Spell spell2;
 
     public KeyCode key;
+    public KeyCode key2;
 
     public GameObject crossHair;
-
+    
+    
+  
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetKeyDown(key))
         {
             spell1.Cast(gameObject,crossHair);
             
         }
-        if (Input.GetKeyDown(key))
+        if (Input.GetKeyDown(key2))
         {
             spell2.Cast(gameObject,crossHair);
         }

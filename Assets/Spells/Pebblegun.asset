@@ -9,13 +9,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b17d50e1c6f99d4469113f61a1b2e088, type: 3}
-  m_Name: TestProjectile
+  m_Script: {fileID: 11500000, guid: b75de9eeec1beee49842deff44ea40dc, type: 3}
+  m_Name: Pebblegun
   m_EditorClassIdentifier: 
   icon: {fileID: 0}
   dmg: 0
   manaCost: 0
-  continuos: 0
-  projectile: {fileID: 3756812405164908681, guid: a622569502bd1f44c95487bc7e6ebc0d, type: 3}
+  continuos: 1
+  projectile: {fileID: 174107021955705008, guid: f21d69df3c1ff3042bd54c7d1b441daf, type: 3}
   speed: 2
-  distance: {x: 0.3, y: 0.3, z: 0}
+  distance: {x: 0.2, y: 0.2, z: 0}
+  firerate: 0
